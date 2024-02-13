@@ -100,7 +100,10 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 # the space below.
 
 # EXPRESSIONS PLAYGROUND BEGINS
+def timesTwo(num):
+  return num * 2
 
+print(timesTwo(timesTwo(3) + 4))
 
 
 # EXPRESSIONS PLAYGROUND ENDS
